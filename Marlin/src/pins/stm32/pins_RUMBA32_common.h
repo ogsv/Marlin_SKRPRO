@@ -53,15 +53,15 @@
 //
 // Steppers
 //
-#define X_STEP_PIN         PA0
-#define X_DIR_PIN          PC15
-#define X_ENABLE_PIN       PC11
-#define X_CS_PIN           PC14
+#define Y_STEP_PIN         PA0
+#define Y_DIR_PIN          PC15
+#define Y_ENABLE_PIN       PC11
+#define Y_CS_PIN           PC14
 
-#define Y_STEP_PIN         PE5
-#define Y_DIR_PIN          PE6
-#define Y_ENABLE_PIN       PE3
-#define Y_CS_PIN           PE4
+#define X_STEP_PIN         PE5
+#define X_DIR_PIN          PE6
+#define X_ENABLE_PIN       PE3
+#define X_CS_PIN           PE4
 
 #define Z_STEP_PIN         PE1
 #define Z_DIR_PIN          PE2
@@ -100,8 +100,8 @@
 #define HEATER_2_PIN       PC8
 #define HEATER_BED_PIN     PA1
 
-#define FAN_PIN            PC9
-#define FAN1_PIN           PA8
+#define FAN_PIN            PA8
+//#define FAN1_PIN           PA8
 
 //
 // I2C

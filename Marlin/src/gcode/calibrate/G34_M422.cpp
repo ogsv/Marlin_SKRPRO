@@ -266,7 +266,7 @@ void GcodeSuite::G34() {
         #endif
 
         // Check for less accuracy compared to last move
-        if (last_z_align_move[zstepper] < z_align_abs * 0.7f) {
+        if (last_z_align_move[zstepper] < z_align_abs ) {
           SERIAL_ECHOLNPGM("Decreasing accuracy detected.");
           #if DISABLED(Z_STEPPER_ALIGN_KNOWN_STEPPER_POSITIONS)
             adjustment_reverse = !adjustment_reverse;
