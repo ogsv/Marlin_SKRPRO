@@ -544,7 +544,7 @@ static_assert(Y_MAX_LENGTH >= Y_BED_SIZE, "Movement bounds (Y_MIN_POS, Y_MAX_POS
     #error "MAX_SOFTWARE_ENDSTOPS requires at least one of the MAX_SOFTWARE_ENDSTOP_[XYZ] options."
   #endif
 #endif
-
+/*
 #if !defined(TARGET_LPC1768) && ANY( \
     ENDSTOPPULLDOWNS, \
     ENDSTOPPULLDOWN_XMAX, ENDSTOPPULLDOWN_YMAX, \
@@ -553,7 +553,7 @@ static_assert(Y_MAX_LENGTH >= Y_BED_SIZE, "Movement bounds (Y_MIN_POS, Y_MAX_POS
   )
   #error "PULLDOWN pin mode is not available on the selected board."
 #endif
-
+*/
 #if BOTH(ENDSTOPPULLUPS, ENDSTOPPULLDOWNS)
   #error "Enable only one of ENDSTOPPULLUPS or ENDSTOPPULLDOWNS."
 #elif BOTH(FIL_RUNOUT_PULLUP, FIL_RUNOUT_PULLDOWN)

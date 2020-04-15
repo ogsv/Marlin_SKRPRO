@@ -47,7 +47,7 @@
 #define X_MAX_PIN          PB13
 #define Y_MIN_PIN          PB15
 #define Y_MAX_PIN          PD8
-#define Z_MIN_PIN          PD9
+#define Z_MIN_PIN          PA9
 #define Z_MAX_PIN          PD10
 
 //
